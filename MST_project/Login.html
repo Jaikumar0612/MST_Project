@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SRKR ENGINEERING COLLEGE (Autonomous)</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <style>
+        /* Additional CSS for smaller font size and space */
+        .login-form p {
+            margin-top: 10px; /* Add space between the signup link and the login form */
+            font-size: 14px; /* Smaller font size */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.jpeg" alt="College Logo">
+        <h2>SRKR ENGINEERING COLLEGE (Autonomous)</h2>
+        <p>Approved by AICTE, New Delhi | Affiliated to JNTU Kakinada</p>
+    </div>
+    <div class="container">
+        <div class="login-form">
+            <h2>Parent Login</h2>
+            <form action="parent_login.php" method="post">
+                <input type="text" name="studentid" placeholder="Student ID">
+                <input type="password" name="studentpass" placeholder="Password">
+                <input type="submit" value="Login">
+            </form>
+            <p>Login with Student ID</p> <!-- Signup link -->
+        </div>
+        <div class="login-form">
+            <h2>Faculty Login</h2>
+            <form action="facultylogin.php" method="post">
+                <input type="text" name="facultyid" placeholder="Faculty ID">
+                <input type="password" name="facultypass" placeholder="Password">
+                <input type="submit" value="Login">
+            </form>
+            <p>Not registered yet? <a href="facultysignup.html">Sign up here</a></p> <!-- Signup link -->
+        </div>
+        <div class="login-form">
+            <h2>Student Login</h2>
+            <form action="studentlogin.php" method="post">
+                <input type="text" name="studentid" placeholder="Student ID">
+                <input type="password" name="studentpass" placeholder="Password">
+                <input type="submit" value="Login">
+            </form>
+            <p>Not registered yet? <a  href="studentsignup.html">Sign up here</a></p> <!-- Signup link -->
+        </div>
+</body>
+</html>

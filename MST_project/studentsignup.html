@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Signup</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="signup-container">
+        <form action="studentsignup.php" method="post">
+            Enter name:<input type="text" name="student_name"><br>
+            Enter RegdNo:<input type="text" name="Regd_No"><br>
+            Enter dateofbirth<input type="date" name="date_of_birth"><br>
+            Select Gender:
+            <select name="gender">
+                <option>select</option>
+                <option>Male</option>
+                <option>Female</option>  
+            </select><br>
+            Contact number:<input type="tel" name="contact_no"><br>
+            Email id :<input type="email" name="email_id"><br>
+            Branch:
+            <select name="course">
+                <option>select</option>
+                <option value="cse">Cse</option>
+                <option value="ece">ece</option>
+                <option value="eee">eee</option>  
+                <option value="IT">IT</option>  
+                <option value="MEch">MEch</option>  
+                <option value="civil">civil</option>  
+                <option value="AIML">AIML</option>    
+            </select><br/><br/>
+           
+            Password:<input type="password" name="Password"><br/><br/>
+            Confirm password:<input type="password" name="confirm_password"><br/><br/>
+            <input type="submit" value="sign up">
+        </form>    
+    </div>
+</body>
+</html>
